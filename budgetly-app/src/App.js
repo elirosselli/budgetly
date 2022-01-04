@@ -1,19 +1,18 @@
+import React from 'react';
 import {
-  BrowserRouter as Router,
   Routes,
-  Route
-} from "react-router-dom";
+  Route,
+} from 'react-router-dom';
 
 import ExpensesList from './containers/ExpensesList';
-import NewExpense from "./containers/NewExpense";
+import NewExpense from './containers/NewExpense';
 
-const App = () => {
+function App() {
   return (
-
-  <Routes>
-    <Route path='/new' element={<NewExpense/>}/>
-    <Route path='/' exact element={<ExpensesList />}/>
-  </Routes>
+    <Routes>
+      <Route path="/new" element={<NewExpense />} />
+      <Route path="/" exact element={<ExpensesList />} />
+    </Routes>
   );
 }
 

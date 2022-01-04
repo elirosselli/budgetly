@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { COLORS } from "../resources/constants";
+import styled from 'styled-components';
+import { COLORS } from '../resources/constants';
 
 const Button = styled.button`
   background: ${COLORS.Primary};
@@ -11,4 +11,4 @@ const Button = styled.button`
   padding: 8px;
 `;
 
-export default Button;  
+export default Button;
